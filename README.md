@@ -4,15 +4,8 @@
 [![platform](https://img.shields.io/badge/platform-Android-yellow.svg)](https://www.android.com)
 [![API](https://img.shields.io/badge/API-16%2B-brightgreen.svg?style=plastic)](https://android-arsenal.com/api?level=16)
 
-<a href="https://www.linkedin.com/in/shashank-singhal-a87729b5/">
+<a href="https://www.linkedin.com/in/estiak-sourav/">
     <img src="https://img.shields.io/badge/Support-Recommed%2FEndorse%20me%20on%20Linkedin-yellow?style=for-the-badge&logo=linkedin" alt="Recommend me on LinkedIn" /></a>
-
-
-<a href="https://play.google.com/store/apps/details?id=com.shashank.sony.fancylibrarybyshashank">
-    <img alt="Get it on Google Play"
-        height="80"
-        src="https://play.google.com/intl/en_us/badges/images/generic/en_badge_web_generic.png" />
-</a>
 
 ## Prerequisites
 
@@ -22,7 +15,7 @@ Add this in your root `build.gradle` file (**not** your module `build.gradle` fi
 allprojects {
 	repositories {
 		...
-		mavenCentral()
+		maven { url 'https://jitpack.io' }
 	}
 }
 ```
@@ -34,7 +27,7 @@ Add this to your module's `build.gradle` file (make sure the version matches the
 ```gradle
 dependencies {
 	...
-	implementation 'io.github.shashank02051997:FancyToast:2.0.1'
+	implementation 'com.github.estiak-sourav:toast:1.0.1'
 }
 ```
 ## Usage
@@ -44,47 +37,38 @@ Each method always returns a `Toast` object, so you can customize the Toast much
 To display an default Toast:
 
 ``` java
-FancyToast.makeText(this,"Hello World !",FancyToast.LENGTH_LONG,FancyToast.DEFAULT,true);
+Toasty.defaults(this, "Defaults")
 ```
 To display a success Toast:
 
 ``` java
-FancyToast.makeText(this,"Hello World !",FancyToast.LENGTH_LONG,FancyToast.SUCCESS,true);
-```
-To display an info Toast:
-
-``` java
-FancyToast.makeText(this,"Hello World !",FancyToast.LENGTH_LONG,FancyToast.INFO,true);
+Toasty.success(this, "Success"));
 ```
 To display a warning Toast:
 
 ``` java
-FancyToast.makeText(this,"Hello World !",FancyToast.LENGTH_LONG,FancyToast.WARNING,true);
+Toasty.warning(this, "warning"));
 ```
 To display the error Toast:
 
 ``` java
-FancyToast.makeText(this,"Hello World !",FancyToast.LENGTH_LONG,FancyToast.ERROR,true);
+Toasty.error(this, "error"));
+```
+To display an info Toast:
+
+``` java
+Toasty.info(this, "info"));
 ```
 To display the confusing Toast:
 
 ``` java
-FancyToast.makeText(this,"Hello World !",FancyToast.LENGTH_LONG,FancyToast.CONFUSING,true);
+Toasty.confusing(this, "confusing"));
 ```
-You can also remove the android icon on top-right corner by passing last parameter false.
+You can set toast duration, you can pass value of toast length otherwise perform default "Toasty.LENGTH_SHORT".
 ``` java
-FancyToast.makeText(yourContext, "I'm a Toast", duration, type, boolean value).show();
+Toasty.success(this, "Success", Toasty.LENGTH_LONG));
 ```
 
-You can also create your custom Toasts with passing your image with or without android icon(top-right corner):
-``` java
-FancyToast.makeText(yourContext, "I'm a custom Toast", duration, type, yourimage, boolean value).show();
-```
-To display the custom Toast with no android icon:
-
-``` java
-FancyToast.makeText(this, "This is Custom Toast with no android icon", FancyToast.LENGTH_LONG, FancyToast.CONFUSING, R.drawable.ic_android_black_24dp, false);
-```
 ## Screenshots
 
 **Please click the image below to enlarge.**
