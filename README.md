@@ -71,50 +71,32 @@ Toasty.success(this, "Success", Toasty.LENGTH_LONG));
 
 ## Screenshots
 
-**Please click the image below to enlarge.**
 
-
-<img src="https://github.com/Shashank02051997/FancyToast-Android/blob/master/fancytoastcollage.png">
+<img src="https://github.com/estiak-sourav/Toast/blob/master/Screenshot_2022-06-30-15-19-06-01_0eb14638b4ec4e571b0be58593eea3a6.jpg">
 
 
 ## Contributing
 
 Please fork this repository and contribute back using
-[pull requests](https://github.com/Shashank02051997/FancyToast-Android/pulls).
+[pull requests](https://github.com/estiak-sourav/Toast/pulls).
 
 Any contributions, large or small, major features, bug fixes, are welcomed and appreciated
 but will be thoroughly reviewed .
 
 ### Contact - Let's become friend
-- [Twitter](https://twitter.com/shashank020597)
-- [Github](https://github.com/Shashank02051997)
-- [Linkedin](https://www.linkedin.com/in/shashank-singhal-a87729b5/)
-- [Facebook](https://www.facebook.com/shashanksinghal02)
+- [Github](https://github.com/estiak-sourav/)
+- [Linkedin](https://www.linkedin.com/in/estiak-sourav/)
 
 <p>
 Don't forget to star ⭐ the repo it motivates me to share more open source
 </p>
 
 ## Donation
-If this project help you reduce time to develop, you can give me a cup of coffee :) 
+ If you want so knock me <a href="https://www.linkedin.com/in/estiak-sourav/">
+    <img src="https://img.shields.io/badge/Support-Recommed%2FEndorse%20me%20on%20Linkedin-yellow?style=for-the-badge&logo=linkedin" alt="Recommend me on LinkedIn" /></a>
 
-<a href="https://www.buymeacoffee.com/mXUuDW7" target="_blank"><img src="https://bmc-cdn.nyc3.digitaloceanspaces.com/BMC-button-images/custom_images/orange_img.png" alt="Buy Me A Coffee" style="height: auto !important;width: auto !important;" ></a>
-
-## License
-
-* [Apache Version 2.0](http://www.apache.org/licenses/LICENSE-2.0.html)
 
 ```
-Copyright 2020 Shashank Singhal
+Copyright 2022 Estiak Ahmed
 
-Licensed under the Apache License, Version 2.0 (the "License");
-you may not use this file except in compliance with the License.
-You may obtain a copy of the License at
-
- http://www.apache.org/licenses/LICENSE-2.0
-
-Unless required by applicable law or agreed to in writing, software
-distributed under the License is distributed on an "AS IS" BASIS,
-WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-See the License for the specific language governing permissions and
-limitations under the License.
+It's free, you use or customize but not sale any where.
