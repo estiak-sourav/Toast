@@ -93,7 +93,7 @@ Don't forget to star ⭐ the repo it motivates me to share more open source
 
 ## Donation
  If you want so knock me <a href="https://www.linkedin.com/in/estiak-sourav/">
-    <img src="https://img.shields.io/badge/Support-Recommed%2FEndorse%20me%20on%20Linkedin-yellow?style=for-the-badge&logo=linkedin" /></a>
+    <img src="https://img.shields.io/badge/Support-Linkedin-yellow?style=for-the-badge&logo=linkedin" /></a>
 
 
 ```
